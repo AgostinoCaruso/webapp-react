@@ -75,7 +75,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
       <Routes>
         <Route Component={DefaultLayout}>
           <Route path="/" Component={HomePage} />
-          <Route path="/movies" > 👈
+          <Route path="/books" > 👈
             <Route index Component={MainPage} /> 👈
             <Route path=":id" Component={BookPage} /> 👈
             <Route path="create" Component={AddPizzaPage} /> 👈
@@ -141,7 +141,7 @@ In App.jsx use global context
 # TODO
 
 1. ROUTING: 
-- HomePage(movies)
+- HomePage(books)
 - About
 - Contatti 
 - Details Page(book)
